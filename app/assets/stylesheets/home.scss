@@ -1,0 +1,28 @@
+.redTexts {
+  display: flex;
+  justify-content: space-around;
+  color: red;
+  padding-top: 55px;
+  padding-bottom: 45px;
+  font-size: 25px;
+  font-weight: lighter;
+}
+
+.redTexts p{
+  text-align: center;
+}
+
+
+.valueProp {
+  padding-top: 50px;
+  padding-right: 80px;
+  padding-left: 80px;
+  color: #0000ff;
+  text-align: center;
+}
+
+.valueProp h3{
+  line-height: 1.6;
+  font-size: 40px;
+  font-weight: normal;
+}
