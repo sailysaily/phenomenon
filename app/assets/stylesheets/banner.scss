@@ -53,3 +53,21 @@
 }
 
 }
+
+.btn-ghost {
+  color: white;
+  border: 3px solid white;
+  padding: 16px 40px;
+  border-radius: 50px;
+  font-weight: normal;
+  font-size:25px;
+  opacity: 0.6;
+  transition: opacity 0.3s ease;
+
+}
+
+.btn-ghost:hover {
+  opacity: 1;
+  color: red;
+}
+

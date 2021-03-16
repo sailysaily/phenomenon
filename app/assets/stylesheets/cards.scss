@@ -1,0 +1,33 @@
+.btn-flat {
+  color: white;
+  padding: 8px 24px;
+  border-radius: 4px;
+  background:#0000ff;
+  transition: background 0.3s ease;
+  margin-top:10px;
+  font-size:35px;
+}
+
+.btn-flat:hover {
+  background: #1BCB7F;
+  color: white;
+}
+
+
+.card {
+  background-size: cover;
+  background-position: center;
+  height: 450px;
+  margin-top: 6%;
+  margin-left: 7%;
+  margin-right: 7%;
+}
+
+.button-card{
+  margin-top:270px;
+  margin-left: 35px;
+}
+
+.button-card-two {
+ margin-left: 35px;
+}
