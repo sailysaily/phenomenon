@@ -49,3 +49,42 @@
   font-weight: normal;
   font-size: 60px;
 }
+
+.banner-footer {
+  background-size: cover;
+  background-position: center;
+  padding: 150px 0;
+  height: 1300px;
+  margin-top: 100px;
+}
+
+.container-footer {
+  text-align: center;
+  color: white;
+  padding: 150px 100px;
+}
+
+
+.btn-footer {
+  color: white;
+  border: 1.5px solid white;
+  padding: 12px 40px;
+  font-weight: normal;
+  font-size:25px;
+  opacity: 0.6;
+  transition: opacity 0.3s ease;
+
+}
+
+.btn-footer:hover {
+  opacity: 1;
+  color: red;
+}
+
+.whiteLine {
+  background-color: white;
+  height: 3px;
+  margin-right: 30px;
+  margin-left: 30px;
+  margin-top:100px;
+}
