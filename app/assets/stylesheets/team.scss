@@ -1,0 +1,36 @@
+.banner-team{
+  height: 400px;
+  padding-top: 100px;
+}
+
+#team-title {
+  color:red;
+  margin-left: 50px;
+  font-size: 20px;
+}
+
+.team-member{
+  padding-top: 100px;
+}
+
+.container-team h1{
+  color: white;
+  margin-left: 50px;
+  font-size: 50px;
+}
+
+.team-name{
+  display: flex;
+  justify-content: space-around;
+}
+
+.member-details {
+  display: flex;
+  padding-top: 50px;
+}
+
+.member-photo img{
+  width: 80%;
+  height: 100%;
+  padding-left: 70px;
+}
