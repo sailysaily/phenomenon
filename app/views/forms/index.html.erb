@@ -10,13 +10,13 @@
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
-        <a class="nav-link" id="navbarText" href="#">Servicios</a>
+        <a class="nav-link" id="navbarText" href="https://phenomenon-innovation-lab.herokuapp.com/services">Servicios</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" id="navbarText" href="#">Equipo</a>
+        <a class="nav-link" id="navbarText" href="https://phenomenon-innovation-lab.herokuapp.com/team">Equipo</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" id="navbarText" href="#">Contáctanos</a>
+        <a class="nav-link" id="navbarText" href="https://phenomenon-innovation-lab.herokuapp.com/forms/new">Contáctanos</a>
       </li>
     </ul>
   </div>
@@ -114,66 +114,36 @@
 </div>
 
 
-
-<div class="banner-footer" style="background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.4)), url(https://res.cloudinary.com/dlj1mjxjd/image/upload/v1615934909/Artboard_2_xzpyau.png);">
-  <div class="container-footer">
-    <h1 id="footer-title">¡Trabajemos juntos!</h1>
-    <h3>Contactanos y dejanos saber lo que estas buscando y nuestro experto en el tema se pondrá en contacto contigo.</h3>
-    <div class= "button-banner">
-      <a class="btn btn-footer" href="#">Contáctanos</a>
-    </div>
-    <div class="whiteLine">
-    </div>
-    <div class="footer">
-      <div>
-        <h1>Phenomenon</h1>
-        <p>La incubadora de diseño</p>
-        <p>Derechos reservados ℗</p>
-      </div>
-      <div class="footer-links-cont">
-        <p>Contáctanos</p>
-        <div class="footer-links">
-          <a href="#"><i class="fab fa-instagram"></i></a>
-          <a href="#"><i class="fab fa-facebook"></i></a>
-          <a href="#"><i class="fab fa-whatsapp"></i></a>
+<div class="master-banner">
+      <div class="banner-footer" style="background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.4)), url(https://res.cloudinary.com/dlj1mjxjd/image/upload/v1615934909/Artboard_2_xzpyau.png);">
+      <div class="container-footer">
+        <h1 id="footer-title">¡Trabajemos juntos!</h1>
+        <h3>Contactanos y dejanos saber lo que estas buscando y nuestro experto en el tema se pondrá en contacto contigo.</h3>
+        <div class= "button-banner">
+          <a class="btn btn-footer" href="#">Contáctanos</a>
+        </div>
+        <div class="whiteLine">
+        </div>
+        <div class="footer">
+          <div>
+            <h1>Phenomenon</h1>
+            <p>La incubadora de diseño</p>
+            <p>Derechos reservados ℗</p>
+          </div>
+          <div class="footer-links-cont">
+            <p>Contáctanos</p>
+            <div class="footer-links">
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-facebook"></i></a>
+              <a href="#"><i class="fab fa-whatsapp"></i></a>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
-  </div>
+</div>
+
 </div>
 
 
 
-<p id="notice"><%= notice %></p>
 
-<h1>Forms</h1>
-
-<table>
-  <thead>
-    <tr>
-      <th>Name</th>
-      <th>Last name</th>
-      <th>Phone number</th>
-      <th>Email</th>
-      <th colspan="3"></th>
-    </tr>
-  </thead>
-
-  <tbody>
-    <% @forms.each do |form| %>
-      <tr>
-        <td><%= form.name %></td>
-        <td><%= form.last_name %></td>
-        <td><%= form.phone_number %></td>
-        <td><%= form.email %></td>
-        <td><%= link_to 'Show', form %></td>
-        <td><%= link_to 'Edit', edit_form_path(form) %></td>
-        <td><%= link_to 'Destroy', form, method: :delete, data: { confirm: 'Are you sure?' } %></td>
-      </tr>
-    <% end %>
-  </tbody>
-</table>
-
-<br>
-
-<%= link_to 'New Form', new_form_path %>

@@ -6,6 +6,7 @@
   padding-bottom: 45px;
   font-size: 25px;
   font-weight: lighter;
+  font-family: 'Work sans', sans-serif;
 }
 
 .redTexts p{
@@ -19,6 +20,7 @@
   padding-left: 80px;
   color: #0000ff;
   text-align: center;
+  font-family: 'Work sans', sans-serif;
 }
 
 .valueProp h3{
@@ -40,6 +42,7 @@
   padding-left: 30px;
   font-weight: lighter;
   font-size: 30px;
+  font-family: 'Work sans', sans-serif;
 }
 
 .ourServices h3{
@@ -48,13 +51,18 @@
   padding-left: 30px;
   font-weight: normal;
   font-size: 60px;
+  font-family: 'Work sans', sans-serif;
+}
+
+.master-banner {
+  height: 1000px;
 }
 
 .banner-footer {
   background-size: cover;
   background-position: center;
   padding: 150px 0;
-  height: 1300px;
+  height: 100%;
   margin-top: 100px;
 }
 
@@ -62,6 +70,7 @@
   text-align: center;
   color: white;
   padding: 150px 100px;
+  height: 100%;
 }
 
 
