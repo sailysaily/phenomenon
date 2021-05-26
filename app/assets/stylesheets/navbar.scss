@@ -1,7 +1,7 @@
 .navbar-lewagon {
   justify-content: space-between;
-  background: #0214BF;
-font-family: 'Work sans', sans-serif;
+  background: #0000E1;
+font-family: 'IBM Plex Sans', sans-serif;
 }
 
 .navbar-lewagon .navbar-collapse {
@@ -15,4 +15,14 @@ font-family: 'Work sans', sans-serif;
 
 #navbarText {
   color: white;
+  padding-right: 25px;
+}
+
+
+#navbarTextImp {
+  color: white;
+  border: 1.5px solid white;
+  padding: 8px 15px;
+  font-weight: normal;
+  transition: opacity 0.3s ease;
 }

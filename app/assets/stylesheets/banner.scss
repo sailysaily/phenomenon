@@ -9,26 +9,28 @@
   font-size: 10px;
   margin: 0;
   color: white;
-  font-family: 'Work sans', serif;
+  font-family: 'IBM Plex Sans', sans-serif;
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
   font-weight: bold;
 }
 
 #banner-title{
-  font-size: 70px;
+  font-size: 10px;
 }
 
-.banner p {
-  font-size: 30px;
-  color: white;
-  font-family: 'Quicksand', sans-serif;
-  opacity: .7;
-  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+.value-prop {
+  display: flex;
+}
+
+.value-prop p {
+  font-size: 14px;
+  color: rgba(255, 0, 0, 1);
+  font-family: 'IBM Plex Mono', monospace;
 }
 
 .container{
-  text-align: center;
-  padding-top: 200px;
+  text-align: left;
+  padding-top: 15%;
   h1{
     font-size:80px;
   }
@@ -42,33 +44,15 @@
 
 @media (min-width: 570px) {
  #banner-title{
-  font-size: 70px;
+  font-size: 120px;
 }
 
-.banner p {
-  font-size: 40px;
-  color: white;
-  font-family: 'Work sans', sans-serif;
-  opacity: .7;
-  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+.value-prop p {
+  font-size: 14px;
+  color: rgba(255, 0, 0, 1);
+  font-family: 'IBM Plex Mono', monospace;
+  padding-right: 20px;
+}
 }
 
-}
-
-.btn-ghost {
-  color: white;
-  border: 3px solid white;
-  padding: 16px 40px;
-  border-radius: 50px;
-  font-weight: normal;
-  font-size:25px;
-  opacity: 0.6;
-  transition: opacity 0.3s ease;
-
-}
-
-.btn-ghost:hover {
-  opacity: 1;
-  color: rgb(150,150,150);
-}
 
