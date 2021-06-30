@@ -62,3 +62,60 @@
   margin-left: 30px;
   margin-top:100px;
 }
+
+// Value Prop //
+
+.value-proposition-container {
+  display: flex;
+}
+
+.organize-value-prop-image{
+  display: flex;
+}
+
+.white-space-image-top {
+  width: 40%;
+}
+
+.value-prop-text {
+  padding-left: 90px;
+  padding-right: 150px;
+  padding-top: 120px;
+  height: 450px;
+
+}
+
+.value-prop-text p {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+#blue-text-value-prop{
+  color: rgba(0, 23, 255, 1);
+}
+
+.story-telling{
+  display: flex;
+}
+
+.story-telling-squares{
+  text-align:center;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 24px;
+  background: #F9F9FA;
+}
+
+.story-telling-squares h2{
+  color:rgba(0, 23, 255, 1);
+  font-family: 'IBM Plex Mono', monospace;
+}
+
+.story-telling-squares p{
+  color:rgba(255, 0, 0, 1);
+  font-size: 14px;
+  font-family: 'IBM Plex Mono', monospace;
+}
