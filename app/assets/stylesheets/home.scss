@@ -119,3 +119,37 @@
   font-size: 14px;
   font-family: 'IBM Plex Mono', monospace;
 }
+
+
+.top-bar-projects-text {
+  position: absolute;
+  width: 439px;
+  height: 80px;
+  left: 141px;
+  top: 82px;
+
+
+}
+
+.top-bar-projects-text h4{
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 100%;
+}
+
+.top-bar-projects {
+  display: flex;
+  height: 120px;
+  position:relative;
+}
+
+.top-bar-projects-image img {
+  top: 0;
+  width:513px;
+  right:0;
+  bottom: 0;
+  position:absolute;
+
+}
